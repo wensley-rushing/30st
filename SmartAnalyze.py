@@ -176,7 +176,7 @@ README:
 
 version="4.0.3"
 
-import openseespy.opensees as ops
+import opensees.openseespy as ops
 import time
 
 has_tqdm=True

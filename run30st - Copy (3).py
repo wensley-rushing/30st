@@ -1,8 +1,8 @@
 import math as math
 from math import *
-import openseespy.opensees as ops
+import opensees.openseespy as ops
 
-from openseespy.opensees import *
+from opensees.openseespy import *
 
 # from RC3D1Story import RC3D1Story
 # from mat import mat
@@ -29,7 +29,7 @@ from SmartAnalyze import SmartAnalyzeTransient
 
 wipe()
 
-# from openseespy.opensees import *
+# from opensees.openseespy import *
 
 model('basic', '-ndm', 3, '-ndf', 6)
 
@@ -109,7 +109,7 @@ model('basic', '-ndm', 3, '-ndf', 6)
 # layer('straight',  60000, 3, As, y1 - cover, z1 - cover, y1 - cover, cover - z1)
 # layer('straight', 60000, 2, As, 0.0, z1 - cover, 0.0, cover - z1)
 # layer('straight', 60000, 3, As, cover - y1, z1 - cover, cover - y1, cover - z1)
-# # from openseespy.opensees import *
+# # from opensees.openseespy import *
 
 # Define constants
 # fc = -52.0e6
@@ -477,7 +477,7 @@ print("damping OK")
 # # Define beam loading pattern
 # # timeSeries('Linear', 1)
 # # pattern('Plain', 1, 1)
-# # from openseespy.opensees import *
+# # from opensees.openseespy import *
 
 # # Define pattern
 # pattern('Plain', 101)

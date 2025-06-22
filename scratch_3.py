@@ -1,4 +1,4 @@
-from openseespy.opensees import *
+from opensees.openseespy import *
 from BuildRCrectSection import BuildRCrectSection
 import vfo.vfo as vfo
 import matplotlib.pyplot as plt

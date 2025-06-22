@@ -1,4 +1,4 @@
-from openseespy.opensees import *
+from opensees.openseespy import *
 
 # Procedure to build RC rectangular section
 def BuildRCrectSection(SecTag, BSec, HSec, cover, coreID, coverID, steelID, totalnumBars, barDiameter, numBarsTop, numBarsBot, nfCoreY, nfCoreZ, nfCoverY, nfCoverZ):

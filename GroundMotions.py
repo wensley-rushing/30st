@@ -1,5 +1,5 @@
 
-from openseespy.opensees import *
+from opensees.openseespy import *
 
 # Define GMX and GMY files separately
 GMX_files = [

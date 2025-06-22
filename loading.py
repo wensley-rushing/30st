@@ -1,4 +1,4 @@
-from openseespy.opensees import *
+from opensees.openseespy import *
 #--------------define beam loading--------------
 timeSeries('Linear', 1)
 pattern('Plain', 1, 1)
